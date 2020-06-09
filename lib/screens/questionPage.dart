@@ -141,12 +141,12 @@ class _QuestionPageState extends State<QuestionPage> {
       setState(() {
         score = 0;
       });
+    } else {
+      setState(() {
+        score = sharedScore;
+      });
     }
     print(sharedScore);
-
-    setState(() {
-      score = sharedScore;
-    });
   }
 
   @override
