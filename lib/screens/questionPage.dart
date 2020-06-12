@@ -168,6 +168,17 @@ class _QuestionPageState extends State<QuestionPage> {
             }));
           },
         ),
+        actions: <Widget>[
+          Center(
+            child: Text(
+              "Puan: " + score.toString(),
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          )
+        ],
       ),
       body: Container(
         child: Stack(
@@ -248,15 +259,6 @@ class _QuestionPageState extends State<QuestionPage> {
                 ),
               ],
             ),
-            Positioned(
-                top: 5,
-                right: 5,
-                child: Text(
-                  "Puan: " + score.toString(),
-                  style: TextStyle(
-                    color: Colors.white,
-                  ),
-                )),
           ],
         ),
       ),
