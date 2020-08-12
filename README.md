@@ -1,6 +1,6 @@
 # bayrak_bulmaca
 
-A new Flutter project.
+Google Play Store: https://play.google.com/store/apps/details?id=com.bayrak.bayrakBulmaca
 
 ## Getting Started
 
